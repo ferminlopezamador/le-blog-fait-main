@@ -1,0 +1,110 @@
+/*color utilities*/
+.bggold {
+  background-color: #be9d26;
+}
+
+.bgjungle {
+  background-color: #006784;
+  color: white;
+}
+
+.text-gold {
+  color: #be9d26;
+}
+
+/*toggle menu*/
+.hide {
+  left: 0 !important;
+}
+
+.h-max {
+  height: max-content;
+}
+
+/* Contenu */
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #e9ecef;
+}
+
+h1, .h1, .h2 {
+  font-family: "Damion", cursive;
+}
+
+img {
+  transition: all 0.5s ease-in;
+}
+
+header {
+  position: fixed;
+  z-index: 16;
+  opacity: 1;
+  background-color: #006784;
+  color: white;
+  width: 100%;
+}
+header a {
+  color: white;
+  transition: all 0.5s ease-in;
+}
+header a:hover {
+  color: #be9d26;
+  text-decoration: none;
+}
+
+.carousel {
+  margin-top: 72px;
+}
+
+.toggle-burger {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-burger:hover {
+  color: #be9d26;
+}
+
+#nav-principale {
+  height: 100%;
+  width: 250px;
+  left: -260px;
+  position: fixed;
+  color: white;
+  background-color: #006784;
+  box-shadow: 0 0 7px #006784;
+  z-index: 25;
+  transition: all 0.5s ease;
+}
+#nav-principale .btn {
+  text-align: left;
+}
+#nav-principale a {
+  text-decoration: none;
+  color: white;
+}
+#nav-principale h3 {
+  border-bottom: 1px solide white;
+}
+
+.topics {
+  height: 100%;
+}
+
+p.articleresume {
+  font-size: 22px;
+  color: slategrey;
+}
+
+/* Media queries
+@media (min-width: 576px) {
+    .carousel {
+        margin-top:0;
+    }
+} */
+
+/*# sourceMappingURL=style2.css.map */

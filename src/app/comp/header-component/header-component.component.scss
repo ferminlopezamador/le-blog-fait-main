@@ -1,0 +1,23 @@
+@import '../../../styles.scss';
+
+header {
+    background: $jungle-gradient-fade;
+    height:150px;
+    color:white; 
+    text-shadow: $shadow; 
+    position: fixed;
+    z-index: 15;   
+}
+.img-header {
+    background-image: url("http://placekitten.com/1200/600");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-header-content {
+        background-color: hsla(193, 100%, 26%, 0.5);
+        color: white;
+    }
+}

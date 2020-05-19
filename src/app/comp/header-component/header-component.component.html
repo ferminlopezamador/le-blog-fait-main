@@ -1,0 +1,17 @@
+
+<header id="totop" class="pl-3 pt-3 container-fluid">
+    <div class="row">
+        <app-burger-component class="ml-3"></app-burger-component>
+        <h1 class="ml-3 mt-1">{{titre}}</h1>
+    </div>
+ </header>
+ <div class="container-fluid">
+     <div class="row img-header">
+        <div class="img-header-content col-10 col-md-8 rounded-lg p-4">
+            <h2 class="display-3 text-center">{{textIntro.titre}}</h2>
+            <p>{{textIntro.resume}}</p>
+            <a [href]="textIntro.url" class="btn btn-lg btn-secondary d-block d-md-none">{{textIntro.lien}}</a>
+        </div>         
+     </div>
+ </div>
+

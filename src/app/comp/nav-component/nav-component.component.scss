@@ -1,0 +1,48 @@
+@import '../../../styles.scss';
+
+nav {
+    color:white;
+    background: $gold;
+    color: white;
+    padding: 20px 0 0 50px;
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    z-index: 25;
+    transition: $transition;
+    .list-group-item {
+        background: $gold;
+        color: white;
+        text-align: left;
+        &.list-group-item:hover {
+            background: $gold-dark;
+        }
+    }
+}
+
+.hide {
+    left:-355px;
+    transition: $transition;
+    // animation: hide 0.5s cubic-bezier(0.51,-0.41, 0.4, 0.99) 0.2s forwards;
+}
+@keyframes hide {
+    from {
+        left:-350px;
+    }
+    to {
+        left:-50px;
+    }
+}
+.show {
+    left:-50px;
+    transition: $transition;
+    // animation: show 0.5s cubic-bezier(0.51,-0.41, 0.4, 0.99) 0.2s forwards;
+}
+@keyframes hide {
+    from {
+        left:-50px;
+    }
+    to {
+        left:-350px;
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "language": "fr",
+  "dailyhoroscope": {
+    "Aries": "You might have to communicate an important message today - you have every reason to carefully consider every single word that you use.  <a href=\"https://horoscopes-and-astrology.com/Aries?language=en\" alt=\"Aries\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Taurus": "Others could be trying to distract you in whatever you’re doing - perhaps only to get your attention, but you should keep your focus! <a href=\"https://horoscopes-and-astrology.com/Taurus?language=en\" alt=\"Taurus\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Gemini": "Do not spend money today that you hadn’t already planned on spending. You could be filled with enthusiasm, but this is a bad investment. <a href=\"https://horoscopes-and-astrology.com/Gemini?language=en\" alt=\"Gemini\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Cancer": "You may find it hard to concentrate, as your thoughts are elsewhere. Accept the fact that you may need to reflect on certain things. <a href=\"https://horoscopes-and-astrology.com/Cancer?language=en\" alt=\"Cancer\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Leo": "If you do not think the answers you are getting are clear enough, you should consider whether your questions are sharp enough. <a href=\"https://horoscopes-and-astrology.com/Leo?language=en\" alt=\"Leo\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Virgo": "Pragmatic sense: Do be careful not to focus too much on achieving perfect equality between your friends and/or your family. <a href=\"https://horoscopes-and-astrology.com/Virgo?language=en\" alt=\"Virgo\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Libra": "You will do yourself a big favour if you try to set your everyday activities against the background of the big picture. <a href=\"https://horoscopes-and-astrology.com/Libra?language=en\" alt=\"Libra\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Scorpio": "Bad start: You may have been unlucky and started the week off on the wrong foot, but it looks like your luck will change. <a href=\"https://horoscopes-and-astrology.com/Scorpio?language=en\" alt=\"Scorpio\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Sagittarius": "Make a proper effort today! It can pay off, both to yourself and to your workplace, and your labours will be appreciated. <a href=\"https://horoscopes-and-astrology.com/Sagittarius?language=en\" alt=\"Sagittatius\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Capricorn": "From dream to reality: You might have wanted something for a long time and now you finally have the opportunity to realise your dream. <a href=\"https://horoscopes-and-astrology.com/Capricorn?language=en\" alt=\"Capricon\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Aquarius": "You might have been going through a period characterised by wide fluctuations to both extremes. The situation seems to be stabilising. <a href=\"https://horoscopes-and-astrology.com/Aquarius?language=en\" alt=\"Aquarius\" target=\"_blank\"> <i>Read more...</i></a>",
+    "Pisces": "A good and long-lasting relationship does not come from nothing, but requires nurturing and attention - as well as many other things do. <a href=\"https://horoscopes-and-astrology.com/Pisces?language=en\" alt=\"Pisces\" target=\"_blank\"> <i>Read more...</i></a>"
+  },
+  "dates": {
+    "Aries": "March 21 - April 19",
+    "Taurus": "April 20 - May 20",
+    "Gemini": "May 21 - June 20",
+    "Cancer": "June 21 - July 22",
+    "Leo": "July 23 - August 22",
+    "Virgo": "August 23 - September 22",
+    "Libra": "September 23 - October 22",
+    "Scorpio": "October 23 - November 21",
+    "Sagittarius": "November 22 - December 21",
+    "Capricorn": "December 22 - January 19",
+    "Aquarius": "January 20 - February 18",
+    "Pisces": "February 19 - March 20"
+  },
+  "titles": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+  ],
+  "credit": "Delivered by Horoscopes-and-astrology.com"
+}

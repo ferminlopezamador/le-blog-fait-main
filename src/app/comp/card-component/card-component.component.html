@@ -1,0 +1,19 @@
+<div class="carte">
+    <a [href]="textCard.url">
+        <figure>
+            <p class="h5 p-3">{{textCard.categorie}}</p>
+            <img src="http://placekitten.com/600/600" class="w-100" alt="...">
+            <figcaption class="card-body d-none d-md-none d-lg-block">
+                <h4 class="card-title h4">{{textCard.titre}}</h4>
+                <p class="card-text">{{textCard.resume}}</p>
+                <a [href]="textCard.url" class="btn btn-primary d-md-none">{{textCard.lien}}</a>
+            </figcaption>
+        </figure>
+
+        <div class="card-body">
+            <h4 class="card-title d-block d-md-block d-lg-none h4">{{textCard.titre}}</h4>
+            <p class="card-text d-block d-md-block d-lg-none">{{textCard.resume}}</p>
+            <a [href]="textCard.url" class="btn btn-primary">{{textCard.lien}}</a>
+        </div>
+    </a>
+</div>

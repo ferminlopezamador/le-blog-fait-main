@@ -1,0 +1,12 @@
+@import '../../../styles.scss';
+
+div.rounded {
+    background-color: $gold;
+    box-shadow: $shadow;
+    p {
+        color: black;
+    }
+    ul {
+        padding-left: 0;
+    }
+}

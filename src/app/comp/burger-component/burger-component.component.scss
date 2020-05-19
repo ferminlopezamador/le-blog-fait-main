@@ -1,0 +1,53 @@
+@import '../../../styles.scss';
+
+.burger {
+    border-radius: 50%;
+    transition: $transition;
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    position: relative;
+}
+.burger:hover {
+    // background-color: $jungle-dark;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.burger-container {
+    position: absolute;
+    top: calc(50% - 23px);
+    left: calc(50% - 20px);
+}
+.burger-element {
+    background-color: white;
+    height:6px;
+    width:40px;
+    border-radius: 3px;
+    margin: 7px 0;
+    // box-shadow: $shadow;
+}
+.burger-element-anim:first-of-type {
+    animation: burger 0.5s cubic-bezier(0.51,-0.41, 0.4, 0.99) 0.3s;
+}
+.burger-element-anim:nth-child(2) {
+    animation: burger 0.5s cubic-bezier(0.51,-0.41, 0.4, 0.99) 0.4s;
+}
+.burger-element-anim:nth-child(3) {
+    animation: burger 0.5s cubic-bezier(0.51,-0.41, 0.4, 0.99) 0.1s;
+}
+
+
+@keyframes burger {
+    from {
+        margin-left: 0;
+    }
+    2% {
+        margin-left: -80px;
+    }
+    10% {
+        margin-left: -80px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}

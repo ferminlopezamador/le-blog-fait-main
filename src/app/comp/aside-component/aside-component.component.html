@@ -1,0 +1,10 @@
+<div class="rounded p-4 jungle">
+    <h4 class="h4">{{aside.titre}}</h4>
+    <p class="blockquote-footer">{{aside.text}}</p>
+    <ul class="text-center row justify-content-center">
+        <a *ngFor='let categorie of categories' [href]='categorie.lien' class="badge badge-pill badge-light p-2 mr-2 col-3"><li>
+            <img [src]="categorie.icone" alt="" class="w-50">
+        </li></a>
+    </ul>
+    <a [href]="aside.url" class="btn btn-primary">{{aside.lien}}</a>
+</div>

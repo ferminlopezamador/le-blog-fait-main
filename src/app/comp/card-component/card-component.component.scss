@@ -1,0 +1,30 @@
+@import '../../../styles.scss';
+
+.carte {
+    box-shadow: $shadow;
+}
+
+.card-body {
+    background-color: white;
+    color: black;
+}
+figure {
+    position: relative;
+    margin-bottom: 0;
+    figcaption {
+        position: absolute;
+        bottom: -78px;
+        transition: $transition;
+    }
+    p.h5 {
+        position: absolute;
+        top:0;
+        background: $gold-gradient;
+        color: black;
+    }
+}
+a:hover {
+    figcaption {
+        bottom: -20px;
+    }
+}

@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+$titres: 'Pacifico', cursive;
+$textes: 'Arimo', sans-serif;
+
+$jungle:  #006784;
+$jungle-opacity-0 : #00678400;
+$jungle-dark:  #015167;
+$gold:    #be9d26;
+$gold-dark:    #9f8321;
+$shadow: 5px 5px 0px $jungle;
+
+$jungle-gradient: linear-gradient(135deg,$jungle, $jungle-dark);
+$gold-gradient: linear-gradient(135deg,$gold, $gold-dark);
+$jungle-gradient-fade: linear-gradient(180deg,$jungle-dark, $jungle-opacity-0);
+
+html, body {
+    scroll-behavior: smooth;
+    background-color: rgb(205, 226, 225);
+}
+
+h1,.h1,.h2,.h3,.h4,.h5 {
+    font-family: $titres;  
+}
+.h2 {
+    font-size: 2rem;
+}
+.h3 {
+    font-size: 1.5rem;
+}
+
+$transition : all 0.5s ease-out; 
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;  
+    }
+}
+
+
+li {
+    list-style-type: none;
+}

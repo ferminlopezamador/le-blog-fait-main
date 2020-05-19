@@ -1,0 +1,14 @@
+<nav id="nav-principale" class="hide">
+    <div class="row">
+        <app-burger-component class="ml-4"></app-burger-component>
+        <h1 class="mt-1 ml-2"> Menu</h1>
+    </div>     
+    <ul class="list-group list-group-flush">
+        <a href="#" class="list-group-item btn btn-secondary mt-3 h2" (click) = "openMenu()">Aller à l 'accueil</a>
+        <h2 class="mt-3 h4" style="padding-left: 20px;">Articles</h2>
+
+        <a *ngFor="let menuItem of menu" [href]="menuItem.url" (click) = "openMenu()"><li class="list-group-item btn btn-secondary">{{menuItem.titre}}</li></a> 
+
+        <a href="mailto" class="list-group-item btn btn-secondary" (click) = "openMenu()"><h3 class="mt-3 h4">Contact</h3></a> 
+    </ul>    
+</nav>

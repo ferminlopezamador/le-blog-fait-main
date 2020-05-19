@@ -1,0 +1,57 @@
+/* Gradients & colors */
+.lightgreen {
+    background-color: #006181;
+    color: white;
+}
+.darkgreen {
+    color: #00455c;
+}
+.lightgold {
+    background-color: #c6a100;
+    color: white;
+}
+.darkgold {
+    color: #997c00;
+}
+.greengradient {
+    background: linear-gradient(to top,#006181,#00455c);
+    color: white;
+}
+.goldgradient {
+    background: linear-gradient(to right,#c6a100,#997c00);
+    color: white;
+}
+
+/* Components */
+html,body {
+	scroll-behavior: smooth;
+}
+p.lightgold {
+    font-size: 0.9em;
+}
+
+/* #experience */
+/* #experiences article {
+    border-left: 1px solid #c6a100;
+} */
+#experiences article div {
+    font-size: 0.8em;
+}
+
+#top {
+    background-image: url('../img/bandeau3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+/* Buttons */
+#totop {
+    position: fixed;
+    bottom: -50px;
+    right: 0px;
+    height: 50px;
+}
+#totop img {
+    height: 40px;
+}
